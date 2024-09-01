@@ -1,12 +1,14 @@
 import React from 'react';
-import './Tracking.css';
+
 
 function Tracking() {
   return (
     <div className="tracking">
-      <h2>Track your Order</h2>
+      <h2>Track your Shipment</h2>
       <input type="text" placeholder="Enter tracking number" />
-      <button>Track</button>
+      <a href='./Tracker'>
+      <button >Track</button>
+      </a>
     </div>
   );
 }

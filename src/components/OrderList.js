@@ -1,5 +1,4 @@
 import React from 'react';
-import './OrderList.css';
 
 function OrderList() {
   return (
